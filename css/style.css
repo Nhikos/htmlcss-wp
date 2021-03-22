@@ -1,0 +1,144 @@
+/* debug */
+nav{
+    /* background-color: #E579E6; */
+}
+
+.banner{
+    /* background-color: #E1D67A; */
+}
+
+main{
+    height: 600px;
+    /* background-color: #0086FF; */
+}
+
+.titolo{
+    /* background-color: #ABCFE7; */
+}
+
+.box-center,
+.box-left,
+.box-right {
+    /* background-color: #ABCFE7; */
+    height: 460px;
+}
+
+footer{
+    /* background-color: #8801FE; */
+}
+
+/* /debug */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+}
+
+nav {
+    height: 40px;
+}
+
+.banner {
+    height: 500px;
+    margin: 30px 0;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.titolo{
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.box{
+    float: left;
+}
+
+.box-center {
+    width: calc(50% - 40px);
+    margin: 0 20px;
+}
+.box-left,
+.box-right {
+    width: 25%;
+}
+
+footer {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.list-inline > li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 10px 10px 0;
+
+}
+
+.list-inline a {
+    text-decoration: none;
+    color: grey;
+    text-transform: uppercase;
+}
+
+#logo-container {
+    height: 80px;
+    background-image: url(../img/logo\(1\).png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 12%;
+    
+}
+
+.description-text {
+    color: grey;
+}
+
+
+
+.wallpaper {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.box-left > .wallpaper{
+    background-image: url(../img/img-1.jpg);
+}
+.box-center > .wallpaper {
+    background-image: url(../img/banner-2.jpg);
+}
+.box-right > .wallpaper {
+    background-image: url(../img/img-3.jpg);
+}
+
+.firma{
+    text-align: center;
+    padding: 0 40%;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+.heart {
+    color: red;
+}
